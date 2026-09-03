@@ -4,6 +4,10 @@
 Framework for extreme event type classification from
 > Pupić Vurilj, M. et al. *Storm surge hydrographs from historical observations of sea level along the Dutch North Sea coast.* Nat Hazards (2025). [https://doi.org/10.1007/s11069-025-07351-8](https://doi.org/10.1007/s11069-025-07351-8)
 
+<div align="center">
+  <img src="assets/methodology.tiff" width="800">
+</div>
+
 The framework consists of four notebooks:
 
 #### 1. GESLA extract variables

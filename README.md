@@ -8,6 +8,7 @@ Framework for extreme event type classification from
   <img src="assets/methodology.tiff" width="800">
 </div>
 
+<br>
 The framework consists of four notebooks:
 
 #### 1. GESLA extract variables

@@ -34,7 +34,7 @@ or
 ```
 conda install conda-forge::bluemath-tk
 ```
-
+<br>
 > [!IMPORTANT]
 > The notebook 01_GESLA_extract_variables.ipynb requires the [Utide package](https://github.com/wesleybowman/UTide). UTide depends on a specific version of SciPy to function properly.
 

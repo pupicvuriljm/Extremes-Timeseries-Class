@@ -29,6 +29,9 @@ For dependencies, install the [BlueMath {Toolkit}](https://github.com/GeoOcean/B
 
 ```
 pip install bluemath-tk
+```
+or
+```
 conda install conda-forge::bluemath-tk
 ```
 

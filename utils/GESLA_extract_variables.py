@@ -95,8 +95,10 @@ def detrend_series(series: pd.Series) -> Tuple[pd.Series, str]:
         t_numeric, series_clean
     )
 
-    trend_str = f"{slope:.6f} * t + {intercept:.6f}"
-    detrended_series = series_clean - (slope * t_numeric + intercept)
+    trend = pd.Series(slope * x + intercept, index=series_clean.index)
+    detrended_series = series_clean - trend
+    
+    trend_str = f"y = {slope:.6g} * x + {intercept:.6g}"
 
     return detrended_series, trend_str
 

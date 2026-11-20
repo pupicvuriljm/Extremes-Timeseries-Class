@@ -89,7 +89,7 @@ def detrend_series(series: pd.Series) -> Tuple[pd.Series, str]:
             "Series must contain at least 2 non-null values for detrending"
         )
 
-    t_numeric = np.arange(len(series_clean))
+    t_numeric = (series_clean.index - series_clean.index[0]).total_seconds()
 
     slope, intercept, r_value, p_value, std_err = stats.linregress(
         t_numeric, series_clean
